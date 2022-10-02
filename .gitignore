@@ -13,6 +13,7 @@
 *.csproj
 *.vcxproj
 *.vcxproj.filters
+*.docx
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
