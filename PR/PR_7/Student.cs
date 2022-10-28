@@ -31,9 +31,16 @@
         {
             get => _course;
             set { _course = (value < 1 || value > 4) ? 0 : value; }
-        } 
-        
+        }
+
         // Mod No.3
+        /// <summary>
+        /// Class constructor.
+        /// </summary>
+        /// <param name="firstName">Student name.</param>
+        /// <param name="lastName">Student's last name.</param>
+        /// <param name="age">Student age.</param>
+        /// <param name="course">Student course.</param>
         public Student(string firstName, string lastName, int age, int course)
         {
             FirstName = firstName;
