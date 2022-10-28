@@ -14,7 +14,7 @@
 
         static void Perimeter(params int[] args)
         {
-            // Modification No.1.2
+            // Modification No.1.2.
             if (args.Length == 4)
             {
                 if ((args[0] == args[1] && args[1] == args[2] && args[2] == args[3]))
@@ -30,7 +30,7 @@
             Console.WriteLine($"Perimeter of an {args.Length}-gon: {p}");
         }
 
-        // Modification No.1.1
+        // Modification No.1.1.
         static void Perimeter(int a)
         {
             Console.WriteLine($"Perimeter of a square: {4 * a}");
@@ -70,7 +70,7 @@
                 Environment.Exit(0);
         }
 
-        // Modification No.2
+        // Modification No.2.
         static void Mode2Orders()
         {
             string temp, name, comfort;

@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PR_6
+﻿namespace PR_6
 {
-    // Modification No.3
+    // Modification No.3.
     public class Tour
     {
         public void TourCalc()
