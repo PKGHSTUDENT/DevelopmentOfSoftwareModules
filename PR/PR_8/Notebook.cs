@@ -16,7 +16,7 @@ namespace PR_8
         /// <summary>
         /// Class Constructor.
         /// </summary>
-        /// <param name="model">Laptop model</param>
+        /// <param name="model">Laptop model.</param>
         /// <param name="ram">Amount of RAM.</param>
         /// <param name="time">Laptop time in minutes.</param>
         public Notebook(string model, int ram, int time) : base(model, ram)
@@ -27,10 +27,7 @@ namespace PR_8
         public int Time
         {
             get { return _time; }
-            set
-            {
-                _time = (value < 10) ? 15 : value;
-            }
+            set { _time = (value < 10) ? 15 : value; }
         }
 
         public override void End() => Console.WriteLine($"{Model} shuts down, charge {Time} minutes");

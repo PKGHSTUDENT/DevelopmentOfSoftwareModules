@@ -31,8 +31,8 @@
             Ram = ram;
         }
 
-        public void Start() => Console.WriteLine($"{Model} works, ram = {Ram}.");
+        public virtual void Start() => Console.WriteLine($"{Model} works, ram = {Ram}.");
 
-        public void End() => Console.WriteLine($"{Model} shuts down.");
+        public virtual void End() => Console.WriteLine($"{Model} shuts down.");
     }
 }
